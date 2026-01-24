@@ -1,0 +1,23 @@
+services: 
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    restart: always
+    command: sh -c "npm start"
+
+  frontend:
+    build:
+      context: ./frontend
+      target: dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+    restart: always
+    command: sh -c "npm start"

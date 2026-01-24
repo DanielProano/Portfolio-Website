@@ -1,0 +1,167 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes intro-page-animation {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+
+.intro-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, #121a27 0%, #24406e 100%, #121a27 0%);
+  background-size: 200%;
+  background-repeat: repeat;
+  min-height: 90vh;
+  animation: intro-page-animation 20s linear infinite;
+}
+
+.profile-pic {
+  width: 450px;
+  height: 450px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-top: 80px;
+  border: 2px solid #355cb8;
+}
+
+.introduction {
+  margin-top: 80px;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.sub-introduction {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 70%;
+}
+
+.about-page {
+  background-color: #294366;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 60vh;
+}
+
+.about-intro {
+  margin: 60px;
+  font-size: 4rem;
+}
+
+.about-container {
+  font-size: 1.5rem;
+  padding: 0px 340px;
+  line-height: 5;
+}
+
+.project-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #192430;
+  min-height: 100vh;
+}
+
+.project-intro {
+  margin-top: 5%;
+  font-size: 50px;
+}
+
+.project-container {
+  width: 70%;
+  padding: 40px 0;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 1.5rem;
+  background: linear-gradient(135deg, #2a405e 0%, #36598a 100%);
+  border: 2px solid #2f4461;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px #415b80;
+  border-color: #507ab5;
+}
+
+.project-card img {
+  height: 30%;
+  max-width: 30%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: left center;
+  border-radius: 0.75rem;
+}
+
+.project-info {
+  line-height: 80px;
+  padding: 0px 0px 0px 5%;
+}
+
+.project-info h3 {
+  margin: 0 0 3% 0;
+  font-size: 1.5rem;
+  color: #e0e7ff;
+  line-height: 1.3;
+}
+
+.project-info p {
+  margin: 0 30% 3% 0;
+  line-height: 1.6;
+  color: #c4d0e8;
+  font-size: 1rem;
+}
+
+.skills-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #121a26;
+  min-height: 50vh;
+}
+
+.skills-intro {
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+.skills-container {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 70%;
+}
+
+.skills-item {
+  margin: 1%;
+  padding: 25px;
+  border-radius: 40px;
+  color: #000000;
+  background-color: #63b1ba;
+}
+
+.skills-item:hover {
+  transform: scale(1.3) rotate(-4deg);
+}
