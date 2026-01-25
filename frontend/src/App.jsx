@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { TopBar } from '@dproano_npm/website-topbar';
 
-import { Home, Blog, About, PassVault, Virus, Music, Notes, NotFound, HardwareHacking, Purt } from './pages/index';
+import { Home, Blog, About, Virus, Music, Notes, NotFound, HardwareHacking, Purt } from './pages/index';
 
 function App() {
 	return (

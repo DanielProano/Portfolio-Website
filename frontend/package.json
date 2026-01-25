@@ -11,7 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@dproano_npm/website-topbar": "^0.1.4",
+    "@dproano_npm/website-topbar": "^0.1.9",
     "@tailwindcss/cli": "^4.1.17",
     "@tailwindcss/vite": "^4.1.17",
     "axios": "^1.13.2",

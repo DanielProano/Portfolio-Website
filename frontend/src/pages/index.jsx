@@ -4,7 +4,6 @@ export { default as About } from './Website-Pages/About';
 export { default as Virus } from './Website-Pages/Virus';
 export { default as Music } from './Website-Pages/Music';
 export { default as Notes } from './Website-Pages/Notes';
-export { default as NotFound } from './Website-Pages/NotFound';
-export { default as TopBar } from './Website-Pages/TopBar';
 export { default as HardwareHacking } from './Website-Pages/HardwareHacking';
 export { default as Purt } from './Website-Pages/PURT';
+export { default as NotFound } from './Website-Pages/NotFound';
