@@ -15,9 +15,8 @@ function App() {
 					<Route path="/virus" element={<Virus />} />
 					<Route path="/music" element={<Music />} />
 					<Route path="/notes" element={<Notes />} />
-               <Route path="/HardwareHacking" element={<HardwareHacking />} />
-               <Route path="/Purt" element={<Purt />} />
-					<Route path="/*" element={<NotFound />} />
+               		<Route path="/HardwareHacking" element={<HardwareHacking />} />
+               		<Route path="/Purt" element={<Purt />} />
 				</Routes>
 			</div>
 		</div>
