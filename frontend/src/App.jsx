@@ -17,6 +17,7 @@ function App() {
 					<Route path="/notes" element={<Notes />} />
                		<Route path="/HardwareHacking" element={<HardwareHacking />} />
                		<Route path="/Purt" element={<Purt />} />
+					<Route path="/*" element={<NotFound />} />
 				</Routes>
 			</div>
 		</div>

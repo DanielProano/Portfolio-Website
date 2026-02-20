@@ -13,7 +13,7 @@ const projects = [
       title: "A Modern Zero-Knowledge Password Manager",
       description: "A traditional password manager can leak your passwords, but not a Zero-Knowledge service! This security focused architecture does not know your master password and protects user data even if it is compromised",
       image: PassPhoto,
-      link: "https://dannyproano.com/login"
+      link: "https://dannyproano.com/pass/"
    },
    {
       title: "An Evaluation ChessBot with ML",
