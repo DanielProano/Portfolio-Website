@@ -80,6 +80,8 @@ cd Portfolio-Website/frontend
 ./host.sh
 ```
 
+## History
+
 The first iteration of this deployment: 
 
 (https://github.com/DanielProano/Password-Manager)
