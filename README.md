@@ -26,35 +26,52 @@ full-stack projects under one domain.
 
 ### Docker
 
-- For containerizing and isolating the app
+For containerizing, isolation, and easy deployment of both
 
-### Google 
+the backend and frontend
 
-- Acts as a reverse proxy
+### Google Cloud Run
 
-### Backend:
+Frontend and Backend deployed via serverless Network Endpoint Group (NEG) under
 
-- **express.js** - Web Framework
+my portfolio website (dannyproano.com) using a load balancer
 
-- **express-rate-limit** - Library for rate limiting
+for traffic and API routing
 
-- **jsonwebtoken** - Library for JWT generation and verification
+The first iteration of this deployment: 
 
-- **sqlite3** - Database
+(https://github.com/DanielProano/Password-Manager)
 
-- **dotenv** - Library to load variables from .env
+### Backend
 
-- **crypto** - Library used to create secure and random salts
+javascript - Makes up a majority of my backend
+
+sqlite3 - My Database of choice
+
+express.js - Web Framework
+
+express-rate-limit - Library for rate limiting
+
+jsonwebtoken - Library for JWT generation and verification
+
+dotenv - Library to load and use local, secret variables
+
+crypto - Library used to create secure and random salts
 
 ### Frontend:
 
-- **vite** - Frontend build tool
+React - My language of choice to write the frontend
 
-- **react-router-dom** - React library facilitating the interaction between
+vite - Frontend build tool
 
-- **bcryptjs** - Javascript library for hashing and salting
+dproano_npm/website-topbar - My custom topbar component 
 
-different pages
+publically available on npm (https://github.com/DanielProano/Website-UI)
+
+react-router-dom - React library facilitating the interaction between
+
+bcryptjs - Javascript library for hashing and salting
+
 
 ## Installation
 
