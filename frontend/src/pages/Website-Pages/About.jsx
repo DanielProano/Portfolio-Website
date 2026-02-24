@@ -88,15 +88,7 @@ function About() {
                Hey! I'm Danny!
             </div>
             <div className="sub-introduction">
-               A Purdue University Computer Science Student
-            </div>
-         </div>
-         <div className="about-page">
-            <div className="about-intro">
-               Who am I?
-            </div>
-            <div className="about-container">
-               Hi! I am a Computer Science and Mathematics double major at Purdue specializing in Systems Engineering and Cybersecurity. In my free time, I compete in cybersecurity, mathematical, and algorithmic competitions, and am involved with Purdue's Electric and Autonomous Racing Teams along with Purdue's Hacking Club.
+               A Purdue University CS & Mathematics Student
             </div>
          </div>
          <div className="project-page">
