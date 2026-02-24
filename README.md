@@ -1,30 +1,26 @@
-<img width="1901" height="909" alt="image" src="https://github.com/user-attachments/assets/1bbc9eb2-0704-4ddb-88b5-3e265aad4c47" />
+<img width="1500" height="891" alt="image" src="https://github.com/user-attachments/assets/c59724fe-c15e-4803-b032-33032a951652" />
 
-# Password Manager
+# Portfolio Website
 
-A Zero-Knowledge Password Manager MVP, implementing modern
+A full-stack portfolio website that
 
-hashing and encryption methods
+implementates and displays several
+
+full-stack projects under one domain.
 
 ## Features
 
-- Zero Knowledge Implementation
+- Load Balancer to route traffic to
 
-- Secure user registration and login
+  different applications
 
-- Master password salting and hashing with bcrypt
+- Use of custom UI components
 
-- Client side data encryption using a master password token and salt
+  (https://github.com/DanielProano/Website-UI)
 
-- JSON Web Token generation and persistent session with JWT-based authentication
+- Display of my research & projects
 
-- Ability to add, delete, and view vault info
-
-- Rate Limiting
-
-- Strong master passwords enforced
-
-- Automatic vault lock after inactivity
+- User login system
 
 ## Tech Stack
 
@@ -32,7 +28,7 @@ hashing and encryption methods
 
 - For containerizing and isolating the app
 
-### Nginx 
+### Google 
 
 - Acts as a reverse proxy
 
@@ -60,38 +56,12 @@ hashing and encryption methods
 
 different pages
 
-## Security Model
-
-Upon registration, with strong password generation enforced, the master password
-
-is salted and hashed locally using bcrypt's blowfish hashing algorithm and
-
-then stored alongside the salt and username. Upon login, the salt is retrieved
-
-from the backend and used to verify the hashes from the input and database
-
-are the same. Then, a JWT token with a unique secret and hour validity 
-
-is generated and used throughout the users session. Finally, a strong key
-
-derived from the PBDKF2 algorithm is used to encrypt the vault information.
-
-This ensures that even if the database is compromised, it is unreadable without the
-
-the master password.
-
-## .Env
-
-JWT_SECRET=Some String
-
-PORT=8080
-
 ## Installation
 
-git clone https://github.com/DanielProano/Password-Manager.git
+```bash
 
-cd password-manager
+git clone https://github.com/DanielProano/Portfolio-Website.git
 
-(make the .ENV file in the backend)
+cd Portfolio-Website/frontend
 
 ./host.sh
