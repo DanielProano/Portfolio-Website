@@ -32,45 +32,41 @@ the backend and frontend
 
 ### Google Cloud Run
 
-Frontend and Backend deployed via serverless Network Endpoint Group (NEG) under
+Deployment of different full stacks as serverless Network 
 
-my portfolio website (dannyproano.com) using a load balancer
+Endpoint Group (NEG) under (dannyproano.com) using a load balancer
 
 for traffic and API routing
 
-The first iteration of this deployment: 
-
-(https://github.com/DanielProano/Password-Manager)
-
 ### Backend
 
-javascript - Makes up a majority of my backend
+- **javascript** - Makes up a majority of my backend
 
-sqlite3 - My Database of choice
+- **sqlite3** - My Database of choice
 
-express.js - Web Framework
+- **express.js** - Web Framework
 
-express-rate-limit - Library for rate limiting
+- **express-rate-limit** - Library for rate limiting
 
-jsonwebtoken - Library for JWT generation and verification
+- **jsonwebtoken** - Library for JWT generation and verification
 
-dotenv - Library to load and use local, secret variables
+- **dotenv** - Library to load and use local, secret variables
 
-crypto - Library used to create secure and random salts
+- **crypto** - Library used to create secure and random salts
 
 ### Frontend:
 
-React - My language of choice to write the frontend
+- **React** - My language of choice to write the frontend
 
-vite - Frontend build tool
+- **vite** - Frontend build tool
 
-dproano_npm/website-topbar - My custom topbar component 
+- **dproano_npm/website-topbar** - My custom topbar component 
 
 publically available on npm (https://github.com/DanielProano/Website-UI)
 
-react-router-dom - React library facilitating the interaction between
+- **react-router-dom** - React library facilitating the interaction between
 
-bcryptjs - Javascript library for hashing and salting
+- **bcryptjs** - Javascript library for hashing and salting
 
 
 ## Installation
@@ -82,3 +78,8 @@ git clone https://github.com/DanielProano/Portfolio-Website.git
 cd Portfolio-Website/frontend
 
 ./host.sh
+```
+
+The first iteration of this deployment: 
+
+(https://github.com/DanielProano/Password-Manager)
