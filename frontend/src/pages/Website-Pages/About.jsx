@@ -81,7 +81,7 @@ function About() {
    }, []);
 
    return (
-      <div>
+      <div className="container">
          <div className="intro-page">
             <img className="profile-pic" src={Daniel_pfp} alt="test"/>
             <div className="introduction">
